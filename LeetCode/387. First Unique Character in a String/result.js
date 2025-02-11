@@ -1,5 +1,5 @@
 /**
- * @param {string} s
+ * @param {string}
  * @return {number}
  */
 var firstUniqChar = function (s) {
@@ -11,7 +11,7 @@ var firstUniqChar = function (s) {
         if (!dict.get(s[i])) {
             dict.set(s[i], [i, 1])
         } else {
-            dict.set(s[i],2)
+            dict.set(s[i],[i,2])
         }
     }
  
